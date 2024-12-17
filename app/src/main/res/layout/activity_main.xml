@@ -5,15 +5,12 @@
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="LOGIN"
-        android:textSize="30dp"
-        android:textAlignment="center"
-        android:textColor="#243642"
-        android:layout_margin="40dp"
-        />
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="83dp"
+        android:layout_margin="50dp"
+        android:background="@drawable/baseline_bolt_24" />
+
     <TextView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
