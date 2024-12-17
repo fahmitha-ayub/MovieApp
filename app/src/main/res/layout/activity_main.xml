@@ -21,6 +21,7 @@
         />
     <EditText
         android:id="@+id/uname"
+        android:drawableLeft="@drawable/baseline_account_circle_24"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         />
@@ -31,6 +32,7 @@
         />
     <EditText
         android:id="@+id/pass"
+        android:drawableLeft="@drawable/baseline_access_time_24"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         />
