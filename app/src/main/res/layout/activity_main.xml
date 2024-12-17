@@ -1,8 +1,8 @@
 <LinearLayout android:layout_height="match_parent"
     android:layout_width="match_parent"
     android:gravity="center"
-    android:layout_margin="30dp"
     android:orientation="vertical"
+    android:background="@drawable/bg"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <ImageView
@@ -14,17 +14,27 @@
     <TextView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:text="USER NAME"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="#DEF9C4"
+        android:text="USER NAME"
         />
     <EditText
         android:id="@+id/uname"
         android:drawableLeft="@drawable/baseline_account_circle_24"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+
+
         />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="#DEF9C4"
         android:text="PASSWORD"
         />
     <EditText
@@ -32,12 +42,21 @@
         android:drawableLeft="@drawable/baseline_access_time_24"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+
         />
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/logButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="LOGIN"
-        android:background="#629584"
+        android:background="#468585"
+        android:textColor="#DEF9C4"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+
+
         />
 </LinearLayout>

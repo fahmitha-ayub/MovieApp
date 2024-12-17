@@ -1,0 +1,142 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="MOVIE NAME"
+        android:textColor="#DEF9C4"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/mname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="LANGUAGE"
+        android:textColor="#DEF9C4"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/lang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="DIRECTOR"
+        android:textColor="#DEF9C4"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/dir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="ACTOR"
+        android:textColor="#DEF9C4"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/actor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="ACTRESS"
+        android:textColor="#DEF9C4"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/actress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="#DEF9C4"
+        android:textStyle="bold"
+        android:text="RELEASED DATE"
+        />
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/subbut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:background="#50B498"
+        android:textColor="#DEF9C4"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_margin="5dp"
+
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to menu"
+        android:background="#468585"
+        android:textColor="#DEF9C4"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_margin="5dp"
+
+
+
+        />
+</LinearLayout>
